@@ -1,0 +1,4 @@
+[console_scripts]
+camera_server = robocon_camera.Camera_Server:main
+client = robocon_camera.Client:main
+

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7823c109f74c4817ebdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robocon_interfaces__py",
+					"jsonFile" : "directory-robocon_interfaces__py-a14947d31031082e803b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/thien123/ROS2WS/robocon_ws/build/robocon_interfaces/robocon_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robocon_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robocon_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robocon_interfaces_egg-1e46b5c4e06b3899974f.json",
+					"name" : "ament_cmake_python_build_robocon_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robocon_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robocon_interfaces-599cba1f19c0ab749ead.json",
+					"name" : "ament_cmake_python_copy_robocon_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces-e552cc46a89496f6ce84.json",
+					"name" : "robocon_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__cpp-19940383c8fcfea1c87b.json",
+					"name" : "robocon_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robocon_interfaces__py::@99c3a0e9b3febc449d39",
+					"jsonFile" : "target-robocon_interfaces__py-2c494095af6f22a33af5.json",
+					"name" : "robocon_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_generator_c-a0c5b0523d34b4125baa.json",
+					"name" : "robocon_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_generator_py-4688548a4f0e5008bdf5.json",
+					"name" : "robocon_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_c-cbf736f6c168568ff67e.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_c__pyext-7cdaf9145864ad222bc4.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_cpp-34dc7490b178cd23eb07.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_fastrtps_c-cc4dbfe280158152ba19.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext-0a0c3598e67f383a7c0e.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_fastrtps_cpp-62baad899518bd61d87e.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_introspection_c-09f78079bf778838f43d.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_introspection_c__pyext-ca7e48a8870e4fd28862.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces__rosidl_typesupport_introspection_cpp-ead969a8aa419854c787.json",
+					"name" : "robocon_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robocon_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robocon_interfaces_uninstall-35afc28b28c1d90678f5.json",
+					"name" : "robocon_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a10e36aa20dca5e0f663.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thien123/ROS2WS/robocon_ws/build/robocon_interfaces",
+		"source" : "/home/thien123/ROS2WS/robocon_ws/src/robocon_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

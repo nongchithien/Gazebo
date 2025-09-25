@@ -1,0 +1,43 @@
+[0.735s] Invoking command in '/home/thien123/ROS2WS/robocon_ws/src/robocon_camera': AMENT_PREFIX_PATH=/home/thien123/ROS2WS/robocon_ws/install/robocon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thien123/ROS2WS/robocon_ws/install/robocon_interfaces LD_LIBRARY_PATH=/home/thien123/ROS2WS/robocon_ws/install/robocon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thien123/ROS2WS/robocon_ws/build/robocon_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages:/home/thien123/ROS2WS/robocon_ws/install/robocon_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robocon_camera build --build-base /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build install --record /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/install.log --single-version-externally-managed install_data
+[1.024s] running egg_info
+[1.025s] creating ../../build/robocon_camera/robocon_camera.egg-info
+[1.025s] writing ../../build/robocon_camera/robocon_camera.egg-info/PKG-INFO
+[1.025s] writing dependency_links to ../../build/robocon_camera/robocon_camera.egg-info/dependency_links.txt
+[1.025s] writing entry points to ../../build/robocon_camera/robocon_camera.egg-info/entry_points.txt
+[1.025s] writing requirements to ../../build/robocon_camera/robocon_camera.egg-info/requires.txt
+[1.025s] writing top-level names to ../../build/robocon_camera/robocon_camera.egg-info/top_level.txt
+[1.025s] writing manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+[1.027s] reading manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+[1.027s] writing manifest file '../../build/robocon_camera/robocon_camera.egg-info/SOURCES.txt'
+[1.028s] running build
+[1.028s] running build_py
+[1.028s] creating /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build
+[1.028s] creating /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build/lib
+[1.028s] creating /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build/lib/robocon_camera
+[1.028s] copying robocon_camera/Client.py -> /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build/lib/robocon_camera
+[1.028s] copying robocon_camera/Camera_Server.py -> /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build/lib/robocon_camera
+[1.028s] copying robocon_camera/__init__.py -> /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build/lib/robocon_camera
+[1.028s] running install
+[1.028s] running install_lib
+[1.029s] creating /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+[1.029s] copying /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build/lib/robocon_camera/Client.py -> /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+[1.029s] copying /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build/lib/robocon_camera/Camera_Server.py -> /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+[1.029s] copying /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build/lib/robocon_camera/__init__.py -> /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera
+[1.030s] byte-compiling /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera/Client.py to Client.cpython-310.pyc
+[1.030s] byte-compiling /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera/Camera_Server.py to Camera_Server.cpython-310.pyc
+[1.031s] byte-compiling /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera/__init__.py to __init__.cpython-310.pyc
+[1.031s] running install_data
+[1.031s] creating /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/share/ament_index
+[1.031s] creating /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/share/ament_index/resource_index
+[1.031s] creating /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/share/ament_index/resource_index/packages
+[1.031s] copying resource/robocon_camera -> /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/share/ament_index/resource_index/packages
+[1.031s] copying package.xml -> /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/share/robocon_camera
+[1.031s] creating /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/share/robocon_camera/launch
+[1.031s] copying launch/camera_service.launch.py -> /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/share/robocon_camera/launch
+[1.031s] running install_egg_info
+[1.033s] Copying ../../build/robocon_camera/robocon_camera.egg-info to /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages/robocon_camera-0.0.0-py3.10.egg-info
+[1.034s] running install_scripts
+[1.059s] Installing camera_server script to /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/robocon_camera
+[1.059s] Installing client script to /home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/robocon_camera
+[1.059s] writing list of installed files to '/home/thien123/ROS2WS/robocon_ws/build/robocon_camera/install.log'
+[1.080s] Invoked command in '/home/thien123/ROS2WS/robocon_ws/src/robocon_camera' returned '0': AMENT_PREFIX_PATH=/home/thien123/ROS2WS/robocon_ws/install/robocon_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thien123/ROS2WS/robocon_ws/install/robocon_interfaces LD_LIBRARY_PATH=/home/thien123/ROS2WS/robocon_ws/install/robocon_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thien123/ROS2WS/robocon_ws/build/robocon_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thien123/ROS2WS/robocon_ws/install/robocon_camera/lib/python3.10/site-packages:/home/thien123/ROS2WS/robocon_ws/install/robocon_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robocon_camera build --build-base /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/build install --record /home/thien123/ROS2WS/robocon_ws/build/robocon_camera/install.log --single-version-externally-managed install_data
