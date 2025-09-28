@@ -23,7 +23,7 @@ class FibonacciActionServer(Node):
             if i == 1 :
                 sequence.append(sequence[0])
             else:
-                sequence.append(sequence[i-1] + sequence[i-2])
+                sequence.append(sequence[i-1] + sequence[i-1])
         
         goal_handle.succeed()
         
