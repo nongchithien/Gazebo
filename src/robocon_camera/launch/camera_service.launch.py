@@ -16,7 +16,6 @@ def generate_launch_description():
     detect = LaunchConfiguration('detect')
     
     
-    
     camera_service_node = Node(
             package='robocon_camera',
             executable='camera_server',
