@@ -2,7 +2,7 @@
 /build
 /log
 /install
-/home/thien123/ROS2WS/robocon_ws/src/robot_description/launch/robot.launch.xml
+/src/robot_description/launch/robot.launch.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -39,18 +39,13 @@ def generate_launch_description():
         
     with open(urdf_path_pub, 'r') as infp:                  # để  có thể đọc file urdf
         robot_desc = infp.read()
-    
+        
     world_path = os.path.join(
         get_package_share_directory("robot_description"),
         "world",
-        "empty_world.world"
+        "house.world"
     )
-    
     rviz_path= os.path.join(get_package_share_directory('robot_description'),'rviz2','config.rviz')
-    
-    # with open(urdf_path, 'r') as infp:
-    #     robot_description = infp.read()
-
     
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -64,7 +59,7 @@ def generate_launch_description():
             name='robot_state_publisher',
             parameters=[{
                 'use_sim_time': use_sim_time,
-                "robot_description": robot_desc,   # Lấy file xacro chứ không phải urdf
+                "robot_description": robot_desc,   # Lấy file urdf
                 'frame_prefix': PythonExpression(["'", frame_prefix, "/'"]),
                 
             }],
@@ -84,10 +79,10 @@ def generate_launch_description():
             os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')
         )
         ),
-        Node(
-        package="joint_state_publisher",
-        executable="joint_state_publisher"
-        ),
+        # Node(
+        # package="joint_state_publisher",
+        # executable="joint_state_publisher"
+        # ),
         
         Node(
         package='rviz2',
@@ -98,7 +93,6 @@ def generate_launch_description():
         Node(
         package="gazebo_ros",
         executable="spawn_entity.py",
-        arguments=["-file", urdf_path_pub, "-entity", 'my_robot'
+        arguments=["-file", urdf_path_pub, "-entity", 'thien'
         ]),
-
     ])
