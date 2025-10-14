@@ -1,9 +1,3 @@
-/.vscode
-/build
-/log
-/install
-/src/robot_description/launch/robot.launch.xml
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
