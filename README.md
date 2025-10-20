@@ -1,5 +1,15 @@
-# Gazebo on ROS2
+# Using Gazebo on ROS2
 
+## How to run my code 
+Using Ros2 Humble to run this code.\
+
+```bash
+mkdir robocon_communication
+git clone  https://github.com/nongchithien/robocon_communication.git
+colcon build
+source install/setup.bash
+ros2 launch robocon_communication commmunication.launch.py
+```
 ## Writing URDF files
 URDF (Unified Robot Description Format) is a file format for specifying the geometry and organization of robots in ROS. A URDF file follows the XML format as described on [here](https://wiki.ros.org/urdf/XML).
 
