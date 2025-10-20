@@ -1,8 +1,8 @@
 # Gazebo on ROS2
 
 ## Writing URDF files
-
-Urdf file structure 
+URDF (Unified Robot Description Format) is a file format for specifying the geometry and organization of robots in ROS. A URDF file follows the XML format as described on [here](https://wiki.ros.org/urdf/XML).
+Urdf file structure: 
 ```xml
 <!-- Define for file type-->
 <?xml version="1.0" encoding="UTF-8"?>
