@@ -1,6 +1,6 @@
 # Gazebo on ROS2
 
-## URDF files:
+## Writing URDF files
 
 Urdf file structure 
 ```xml
