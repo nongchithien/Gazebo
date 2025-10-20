@@ -1,7 +1,7 @@
 # Using Gazebo on ROS2
 
 ## How to run my code 
-Using Ros2 Humble to run this code.\
+Using Ros2 Humble to run this code.
 
 ```bash
 mkdir robocon_communication
