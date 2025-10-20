@@ -26,7 +26,7 @@ Include mesh file to your urdf :
 ```
 
 
-### Xacro
+### Using Xacro to clean up your code
 Writing URDF files with xacro for easily file managing and editing.
 We can separate our urdf robot model in to components such as: color, body/base , camera, lidar. And all of these can be combined into a main file to build a complete robot.
 Main file structure :
@@ -39,7 +39,6 @@ Main file structure :
 ```
 Using xacro property namespace is a method to shorten your urdf file.
 
-Sub file structure : 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
@@ -51,9 +50,10 @@ Sub file structure :
    <link name="base_link"></link>
    <joint name="base_joint" type="fixed"></joint>
 ```
-
+The xacro program runs all of the macros and outputs the result. Typical usage looks something like this:
+```bash xacro model.xacro > model.urdf ```
 ## RVIZ
-In order to visualize your urdf file in Rviz, you must let robot_state_publisher know you urdf file. Then Rviz will listen to this topic and show it in the Rviz GUI.\
+In order to visualize your urdf file in Rviz, you must let robot_state_publisher publish urdf file. Then Rviz will listen to this topic and visualize it in the Rviz GUI.\
 Also, if you are using a continuous joint type, you must run joint_state_publisher , by doing this Rviz can understand the transform of this file.
 In your launch file :
 ```python
