@@ -52,7 +52,9 @@ Using xacro property namespace is a method to shorten your urdf file.
    <joint name="base_joint" type="fixed"></joint>
 ```
 The xacro program runs all of the macros and outputs the result. Typical usage looks something like this:
-```bash xacro model.xacro > model.urdf ```
+```bash 
+xacro model.xacro > model.urdf
+```
 ## RVIZ
 In order to visualize your urdf file in Rviz, you must let robot_state_publisher publish urdf file. Then Rviz will listen to this topic and visualize it in the Rviz GUI.\
 Also, if you are using a continuous joint type, you must run joint_state_publisher , by doing this Rviz can understand the transform of this file.
@@ -73,11 +75,11 @@ Node(
             executable="joint_state_publisher"
         ),
         
-Node(
+ Node(
             package='rviz2',
             executable='rviz2',
             arguments=[' -d', rviz_path] # Rviz configuration pre-setting
-     ,
+     ),
 ```
 
 
